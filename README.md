@@ -1,4 +1,4 @@
-Setup proyek:
+Setup Proyek:
 
 1. **Clone repository**
    ```
