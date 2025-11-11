@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Models\Data;
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;
 
 class DataController extends Controller

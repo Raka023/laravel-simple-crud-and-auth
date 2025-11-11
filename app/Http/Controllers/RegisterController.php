@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Auth;
 
 class RegisterController extends Controller
 {
-    public function index()
+    public function create()
     {
         return view('auth.register');
     }

@@ -8,10 +8,10 @@ use Illuminate\Support\Facades\Route;
 Route::redirect('/', '/persons');
 
 Route::middleware('guest')->group(function () {
-    Route::get('/login', [SessionController::class, 'index'])->name('login');
+    Route::get('/login', [SessionController::class, 'create'])->name('login');
     Route::post('/login', [SessionController::class, 'store']);
 
-    Route::get('/register', [RegisterController::class, 'index'])->name('register');
+    Route::get('/register', [RegisterController::class, 'create'])->name('register');
     Route::post('/register', [RegisterController::class, 'store']);
 });
 

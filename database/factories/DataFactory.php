@@ -18,7 +18,7 @@ class DataFactory extends Factory
     {
         return [
             'name' => fake()->name(),
-            'age' => fake()->randomDigit(),
+            'age' => random_int(8, 81),
             'address' => fake()->address(),
         ];
     }
