@@ -13,7 +13,7 @@
         <!-- Styles / Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="p-6 lg:p-8">
+    <body class="flex flex-col items-center min-h-screen antialiased p-6 lg:p-8 bg-zinc-50">
         {{ $slot }}
     </body>
 </html>
